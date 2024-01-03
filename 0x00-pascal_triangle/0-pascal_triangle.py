@@ -23,9 +23,9 @@ def pascal_triangle(n: int):
 
 
 if __name__ == "__main__":
-    """test"""
+    """test example"""
     def print_triangle(triangle):
-        """Prints a triangle"""
+        """Pulls a triangle"""
         for row in triangle:
             print("[{}]".format(",".join([str(x) for x in row])))
 
