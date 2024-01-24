@@ -18,7 +18,7 @@ def extract_input(input_line):
         'status_code': 0,
         'file_size': 0,
     }
-    log_fmt = '{}\\-{}{}{}{}\\s*'.format(fp[0], fp[1], fp[2], fp[3], fp[4])
+    log_fmt = f'{fp[0]}\\-{fp[1]}{fp[2]}{fp[3]}{fp[4]}\\s*'
     resp_match = re.fullmatch(log_fmt, input_line)
     if resp_match is not None:
         status_code = resp_match.group('status_code')
@@ -55,7 +55,7 @@ def update_metrics(line, total_file_size, status_codes_stats):
 
 
 def run():
-    '''Starts the log parser.
+    '''begin the log parser.
     '''
     line_num = 0
     total_file_size = 0
