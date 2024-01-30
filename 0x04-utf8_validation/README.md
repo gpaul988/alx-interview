@@ -1,13 +1,8 @@
 # My readme for 0x04-utf8_validation
-
 The project contains interview coding challenges.
-
 ## Author
-
 + [x] Graham S. Paul
-
 ## Tasks To Complete
-
 + [x] 0. **UTF-8 Validation**<br/>[0-stats.py](0-stats.py) contains a script with a function that determines if a given data set represents a valid UTF-8 encoding:
   + Prototype: `def validUTF8(data)`.
   + Return: `True` if data is a valid UTF-8 encoding, else return `False`.
