@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-# Graham S. Paul - 0-nqueens.py
-"""Solution finder for N_queens module.
-"""
+"""Solution finder for N_queens module."""
 import sys
 
 
