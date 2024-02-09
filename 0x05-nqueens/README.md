@@ -2,7 +2,7 @@
 
 This project contains interview coding challenges.
 
-## Autho
+## Author
 
 + [x] Graham S. Paul
 
