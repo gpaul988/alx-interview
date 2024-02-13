@@ -1,6 +1,6 @@
 #!/usr/bin/node
-/* Graham S. Paul - 0-starwars_characters.js */
-import request from 'request';
+# Graham S. Paul - 0-starwars_characters.js
+const request = require('request');
 const API_URL = 'https://swapi-api.hbtn.io/api';
 
 if (process.argv.length > 2) {
