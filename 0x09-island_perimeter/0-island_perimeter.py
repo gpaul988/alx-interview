@@ -1,13 +1,14 @@
 #!/usr/bin/python3
-"""Graham S. Paul - The Island perimeter computing module.
+"""Island perimeter computing module.
 """
 
 
 def island_perimeter(grid):
-    """Inputs perimeter of an island with no lakes.
+    """Computes the perimeter of an island with no lakes.
     """
     perimeter = 0
     if type(grid) != list:
+        return 0
     n = len(grid)
     for i, row in enumerate(grid):
         m = len(row)
